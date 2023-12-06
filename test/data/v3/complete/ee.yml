@@ -1,0 +1,40 @@
+---
+version: 3
+
+images:
+  base_image:
+    name: registry.redhat.io/distronode-automation-platform-21/ee-minimal-rhel8:latest
+
+build_arg_defaults:
+  DISTRONODE_GALAXY_CLI_COLLECTION_OPTS: '--foo'
+  DISTRONODE_GALAXY_CLI_ROLE_OPTS: '--bar'
+
+options:
+  user: '1001'
+
+dependencies:
+  distronode_core:
+    package_pip: distronode-core==2.13
+  distronode_runner:
+    package_pip: distronode-runner==2.3.1
+  python_interpreter:
+    package_system: "mypython3"
+    python_path: "/usr/local/bin/mypython"
+  galaxy:
+    collections:
+      - distronode.utils
+    roles:
+      - blar
+      - blar2
+  python:
+    - six
+    - PyYaml==6.0
+  system:
+    - python311
+    - mysql
+
+additional_build_files:
+  - src: files/random.cfg
+    dest: myconfigs
+  - src: files/data
+    dest: mydata
