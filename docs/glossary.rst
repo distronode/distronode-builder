@@ -14,5 +14,5 @@ Glossary
 
     Control node
       The machine or container running Distronode.
-      See the `Distronode documentation <https://docs.distronode.com/distronode/latest/network/getting_started/basic_concepts.html#control-node>`_
+      See the `Distronode documentation <https://docs.distronode.khulnasoft.com/distronode/latest/network/getting_started/basic_concepts.html#control-node>`_
       for a more comprehensive explanation.

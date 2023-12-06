@@ -3,4 +3,4 @@
 #   - https://github.blog/2017-07-06-introducing-code-owners/
 
 # Default owners for everything in the repo.
-*    @distronode/executor
+*    @nxpkg

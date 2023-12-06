@@ -11,9 +11,9 @@ chat with us at `#distronode-builder` on irc.libera.chat.
   `git rebase` vs `git merge` for this reason.
 - All source code changes **MUST** include a test! We use `pytest` for testing.
 - We ask all of our community members and contributors to adhere to the
-  [Distronode code of conduct](http://docs.distronode.com/distronode/latest/community/code_of_conduct.html).
+  [Distronode code of conduct](http://docs.distronode.khulnasoft.com/distronode/latest/community/code_of_conduct.html).
   If you have questions, or need assistance, please reach out to our community
-  team at [codeofconduct@distronode.com](mailto:codeofconduct@distronode.com).
+  team at [codeofconduct@khulnasoft.com](mailto:codeofconduct@khulnasoft.com).
 
 ## Setting Up Your Development Environment
 

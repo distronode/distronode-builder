@@ -17,7 +17,7 @@ In the example below, we will take a look at
 
 
 You can provide environment variables such as ``DISTRONODE_GALAXY_SERVER_LIST``, ``DISTRONODE_GALAXY_SERVER_AUTOMATION_HUB_URL`` and ``DISTRONODE_GALAXY_SERVER_AUTOMATION_HUB_AUTH_URL`` using the ``ENV`` directive.
-See `configuring Galaxy client <https://docs.distronode.com/distronode/latest/galaxy/user_guide.html#configuring-the-distronode-galaxy-client>`_ for more details.
+See `configuring Galaxy client <https://docs.distronode.khulnasoft.com/distronode/latest/galaxy/user_guide.html#configuring-the-distronode-galaxy-client>`_ for more details.
 
 For security reason, we do not want to store sensitive information in this case `DISTRONODE_GALAXY_SERVER_AUTOMATION_HUB_TOKEN`.
 You can use `ARG` directive in order to receive the sensitive information from the user as an input. `--build-args` can be used

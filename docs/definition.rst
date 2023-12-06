@@ -230,7 +230,7 @@ The following keys are valid for this section:
       Distronode Collections to be installed from Galaxy. This may be a filename, a
       dictionary, or a multi-line string representation of an Distronode Galaxy
       ``requirements.yml`` file (see below for examples). Read more about
-      the requirements file format in the `Galaxy user guide <https://docs.distronode.com/distronode/latest/galaxy/user_guide.html#install-multiple-collections-with-a-requirements-file>`_.
+      the requirements file format in the `Galaxy user guide <https://docs.distronode.khulnasoft.com/distronode/latest/galaxy/user_guide.html#install-multiple-collections-with-a-requirements-file>`_.
 
     ``python``
       The Python installation requirements. This may either be a filename, or a

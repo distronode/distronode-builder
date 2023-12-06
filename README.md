@@ -20,16 +20,16 @@ https://distronode-builder.readthedocs.io/en/stable/
 * Join us in the `#distronode-builder` channel on Libera.chat IRC
 * For the full list of Distronode email Lists, IRC channels and working groups,
   check out the [Distronode Mailing
-  lists](https://docs.distronode.com/distronode/latest/community/communication.html#mailing-list-information)
+  lists](https://docs.distronode.khulnasoft.com/distronode/latest/community/communication.html#mailing-list-information)
   page of the official Distronode documentation.
 
 ## Code of Conduct
 
 We ask all of our community members and contributors to adhere to the [Distronode
 code of
-conduct](http://docs.distronode.com/distronode/latest/community/code_of_conduct.html). If
+conduct](http://docs.distronode.khulnasoft.com/distronode/latest/community/code_of_conduct.html). If
 you have questions, or need assistance, please reach out to our community team
-at [codeofconduct@distronode.com](mailto:codeofconduct@distronode.com)
+at [codeofconduct@khulnasoft.com](mailto:codeofconduct@khulnasoft.com)
 
 ## License
 
