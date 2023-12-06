@@ -20,7 +20,7 @@ def test_definition_version_missing(exec_env_definition_file):
 def test_galaxy_requirements(exec_env_definition_file, galaxy_requirements_file, path_spec, tmp_path):
     galaxy_requirements_content = {
         'collections': [
-            {'name': 'geerlingguy.php_roles', 'version': '0.9.3', 'source': 'https://galaxy.distronode.com'}
+            {'name': 'geerlingguy.php_roles', 'version': '0.9.3', 'source': 'https://galaxy.distronode.khulnasoft.com'}
         ]
     }
 

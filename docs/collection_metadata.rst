@@ -39,7 +39,7 @@ In order to do that, the collection has to be installed locally.
 When installing collections using distronode-galaxy
 ------------------------------------------------
 
-The easiest way to install a collection is to use the `distronode-galaxy <https://docs.distronode.com/distronode/latest/collections_guide/collections_installing.html#installing-collections-with-distronode-galaxy>`_
+The easiest way to install a collection is to use the `distronode-galaxy <https://docs.distronode.khulnasoft.com/distronode/latest/collections_guide/collections_installing.html#installing-collections-with-distronode-galaxy>`_
 command which is a part of the ``distronode`` package.
 
 Run the ``introspect`` command against your collection path:
@@ -49,7 +49,7 @@ Run the ``introspect`` command against your collection path:
     distronode-builder introspect --sanitize COLLECTION_PATH
 
 The default collection path used by the ``distronode-galaxy`` command is ``~/.distronode/collections/``.
-Read more about collection paths in the `Distronode configuration settings <https://docs.distronode.com/distronode/latest/reference_appendices/config.html#collections-paths>`_ guide.
+Read more about collection paths in the `Distronode configuration settings <https://docs.distronode.khulnasoft.com/distronode/latest/reference_appendices/config.html#collections-paths>`_ guide.
 
 The ``--sanitize`` option reviews all of the collection requirements and removes duplicates. It also removes any Python requirements that should normally be excluded (see :ref:`python_deps` below).
 
@@ -59,7 +59,7 @@ The ``--sanitize`` option reviews all of the collection requirements and removes
 When installing collections manually
 ------------------------------------
 
-If you download collection tarballs from `Galaxy <https://galaxy.distronode.com/>`_  manually or clone collection git repositories,
+If you download collection tarballs from `Galaxy <https://galaxy.distronode.khulnasoft.com/>`_  manually or clone collection git repositories,
 for the ``introspect`` command to work properly, be sure you store your collections
 using the following directory structure:
 

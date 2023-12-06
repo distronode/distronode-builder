@@ -31,7 +31,7 @@ Before you start using Distronode Builder, you should understand the following c
 What are execution environments?
 ================================
 
-Refer to the `Getting started with Execution Environments guide <https://docs.distronode.com/distronode/devel/getting_started_ee/index.html>`_ for details.
+Refer to the `Getting started with Execution Environments guide <https://docs.distronode.khulnasoft.com/distronode/devel/getting_started_ee/index.html>`_ for details.
 
 Quickstart for Distronode Builder
 ==============================
