@@ -1,3 +1,14 @@
+[tool.poetry]
+name = "distronode-builder"
+version = "0.1.0"
+description = ""
+authors = ["NxPKG js <iconmamundentist@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
 [build-system]
 requires = ["setuptools>=45, <=67.7.2", "setuptools-scm[toml]>=6.2, <=7.1.0"]  # pin max versions of build deps and update as needed
 build-backend = "setuptools.build_meta"
